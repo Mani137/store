@@ -46,12 +46,6 @@
                     <target>17</target>
                 </configuration>
             </plugin>
-                 <repositories>
-    <repository>
-        <id>apache-repo</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
-</repositories>
 
             <!-- Maven WAR Plugin -->
             <plugin>
@@ -63,6 +57,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>apache-repo</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <!-- PostgreSQL Driver -->
